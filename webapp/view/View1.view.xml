@@ -1,0 +1,15 @@
+<mvc:View controllerName="creatingtwoips.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <Input id="input1" width="10rem"/>
+    <HBox id="_IDGenHBox">
+    <Input id="input2" width="10rem"/>
+    </HBox>
+    <VBox id="_IDGenVBox">
+    <Button id="_IDGenButton" type="Default" text="alert"  press="onSubmit"></Button>
+    </VBox>
+    </content>
+    </Page>
+</mvc:View>
